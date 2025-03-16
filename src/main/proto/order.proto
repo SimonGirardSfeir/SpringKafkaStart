@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package org.girardsimon.protobuf;
+
+import "google/protobuf/wrappers.proto";
+
+message Order {
+  string order_id = 1;
+  string price = 2;
+}
